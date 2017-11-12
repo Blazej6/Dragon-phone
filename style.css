@@ -108,6 +108,9 @@ body {
   height: 90px;
   border-radius: 50%;
 }
+#playing-currently {
+  color: purple;
+}
 #red-dragon {
   background-image: url(https://raw.githubusercontent.com/Blazej6/Images-for-websites/master/dragon.jpg);
 }
