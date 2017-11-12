@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+<div class='phone flex-center'>
+  
+  <div class="top-section flex-center">
+    
+      <img class="back-arrow" 
+           src="https://raw.githubusercontent.com/netguru/junior-frontend-recruitment-task/master/imgs/back-arrow.png"/>
+      <div class="stations">Stations</div>
+      <img class="switch" src="https://raw.githubusercontent.com/netguru/junior-frontend-recruitment-task/master/imgs/switch.png"/>
+    
+  </div>  
+    
+  <div class="mid-section">
+    <div class="station"  id="RedFlame">
+      
+      <div class="click-frame" onclick="myFunction()" id="volume-id">
+      <div class="station-name">RedFlame FM</div>
+      <div class="station-frq">66,6</div>
+      </div>  
+
+      <div class="audio-controls" id="audio-controls">
+        <div class="lower-volume" id="lower-volume">-</div>
+        <img class="audio-controls-img" id="red-dragon"/>
+        <div class="increase-volume" id="increase-volume">+</div>
+      </div>
+      
+      </div>
+    
+    <div class="station" id="BlackWing" >
+      
+    <div class="click-frame" onclick="myFunction2()">  
+      <div class="station-name">BlackWing FM</div>
+      <div class="station-frq">101,2</div>
+    </div>  
+      
+      <div class="audio-controls" id="audio-controls2">
+        <div class="lower-volume" id="lower-volume2">-</div>
+        <img class="audio-controls-img" id="black-dragon"/>
+        <div class="increase-volume" id="increase-volume2">+</div>
+      </div>      
+      
+    </div>
+    
+    <div class="station" id="MagicThunder">
+      
+    <div class="click-frame" onclick="myFunction3()">  
+    <div class="station-name">MagicThunder FM</div>
+    <div class="station-frq">99,4</div>
+    </div>  
+      
+      <div class="audio-controls" id="audio-controls3">
+        <div class="lower-volume" id="lower-volume3">-</div>
+        <img class="audio-controls-img" id="magic-dragon"/>
+        <div class="increase-volume" id="increase-volume3">+</div>
+      </div> 
+      
+    </div>
+    
+    <div class="station" id="UndeadFrost">
+      
+      <div class="click-frame" onclick="myFunction4()">   
+        <div class="station-name">UndeadFrost FM</div>
+        <div class="station-frq">87,1</div>
+      </div>  
+      
+      <div class="audio-controls" id="audio-controls4">
+        <div class="lower-volume" id="lower-volume4">-</div>
+        <img class="audio-controls-img" id="undead-dragon"/>
+        <div class="increase-volume" id="increase-volume4">+</div>
+      </div>  
+      
+    </div>
+    
+    <div class="station" id="WaterFury">
+      
+      <div class="click-frame" onclick="myFunction5()">   
+        <div class="station-name">WaterFury FM</div>
+        <div class="station-frq">142,2</div>
+      </div>  
+      
+      <div class="audio-controls" id="audio-controls5">
+        <div class="lower-volume" id="lower-volume5">-</div>
+        <img class="audio-controls-img" id="water-dragon"/>
+        <div class="increase-volume" id="increase-volume5">+</div>
+      </div>
+      
+    </div>
+    
+  </div>  
+    
+  <div class="bot-section flex-center">
+    
+    <div id="playing-currently"></div>
+    <div id="playing-station"></div>
+    
+  </div>  
+    
+</div>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>

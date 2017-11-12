@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  background: blue;
+  font-family: Roboto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+.phone {
+  height: 450px;
+  width: 300px;
+  flex-direction: column;
+  background: red;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-section {
+  background: orange;
+  width: 100%;
+  height: 15%;
+  border-radius: 25px 25px 0px 0px;
+  justify-content: space-between;
+}
+.mid-section {
+  flex-direction: column;
+  color: darkgray;
+  width: 100%;
+  height: 70%;
+  overflow-y: scroll;
+  padding-left: 45px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.bot-section {
+  flex-direction: column;
+  background: orange;
+  height: 15%;
+  width: 114%;
+  border-radius: 0px 0px 25px 25px;
+}
+.stations {
+  font-size: 23px;
+}
+.switch {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.back-arrow {
+  width: 4.6%;
+  margin-left: 15px;
+}
+.station {
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+  width: 90%;
+  margin: 0;
+}
+.click-frame {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.station-name {
+  float: left;
+}
+.station-frq {
+  float: right;
+}
+.audio-controls {
+  width: 100%;
+  height: 150px;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.lower-volume, .increase-volume {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 3px solid gray;
+  border-radius: 50%;
+}
+.audio-controls-img {
+  background-reapeat: no-reapeat;
+  background-size: cover;
+  width: 130px;
+  height: 90px;
+  border-radius: 50%;
+}
+#red-dragon {
+  background-image: url(https://raw.githubusercontent.com/Blazej6/Images-for-websites/master/dragon.jpg);
+}
+#black-dragon {
+  background-image: url(https://raw.githubusercontent.com/Blazej6/Images-for-websites/master/czarny.jpg);
+}
+#magic-dragon {
+  background-image: url(https://raw.githubusercontent.com/Blazej6/Dragonpage/master/img/magic.jpg);
+}
+#undead-dragon {
+  background-image: url(https://raw.githubusercontent.com/Blazej6/Dragonpage/master/img/undead.jpg);
+}
+#water-dragon {
+  background-image: url(https://raw.githubusercontent.com/Blazej6/Dragonpage/master/img/water.jpg);
+}
+
+#audio-controls, #audio-controls2, #audio-controls3, #audio-controls4, #audio-controls5  {
+  overflow: hidden;
+  opacity: 0; 
+  height: 0;
+}
+
+@keyframes fadeIn {
+    0%   {height: 0px; opacity: 0}
+    100% {height: 150px; opacity: 1}
+}
+@keyframes fadeOut {
+    0%   {height: 150px; opacity: 1}
+    100% {height: 00px; opacity: 0}
+}
